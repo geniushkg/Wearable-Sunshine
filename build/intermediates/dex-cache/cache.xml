@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0-beta1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6fd4eef51a55508bdf3f43f8ad96992e1da3850b">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.0.0-beta1_d7c6bd0436ac682f0749116e88f12d2267d9d3c6.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\24.0.0-beta1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ba97022c9cfce2813aa201216617b45980a5e938">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.android.support-gridlayout-v7-24.0.0-beta1_6679d3e65f0d3892b07d40231290631b400acb76.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.0.2_6daef3916df405249f9a8614a4b421007e790751.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.5.0_3726e684560ce656f6fcba22ca3447b4ef53f7aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\geniushkg\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-beta1\support-annotations-24.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04705c19cdec60364bc04e2e928c274da1ba301b">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-beta1_23dc9ffcfa8b98d593db6011c95db83a02f7fa6f.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-beta1\jars\libs\internal_impl-24.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23d564c059873f398dc5d967f56791a66472ce76">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-beta1_d5e48507fe7acd3eceeb47b92275da96a030378f.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-beta1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a2d637cb6a100dd3a605bd094a8297ccb6dab18b">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-24.0.0-beta1_a87e41b344ca268bafc25377a67d2826efc05e90.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.0.2_90ba4608fbd14e52c9ed4c280a68aa3eef529369.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-beta1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f81eecb8d5e9e548f75f277830a94a9b37fbb987">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0-beta1_8b066c0a5f78101c2856e1ddf8a0c0a8c3462cc7.jar" />
+    </item>
+    <item
+        jar="C:\Users\geniushkg\.gradle\caches\modules-2\files-2.1\com.google.android.apps.muzei\muzei-api\2.0\ea86be2a201e6ad86dacffe774dbc6d89fcb0c92\muzei-api-2.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea86be2a201e6ad86dacffe774dbc6d89fcb0c92">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\muzei-api-2.0_95152ce5b08c4abaea3e7dae8b91d7cb42bf1b4a.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-beta1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3c0208faf42864e6695345e64d1b955070263819">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0-beta1_4b9245df67fc42d8e6bbfaff79de938179c15fd5.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.0.2_ab021523cdedd87fc4bd918373edc19c0b5e5ad1.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.5.0_cb4ef233830a404b5b65d4d895f55513191a4e33.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-beta1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8d3137a71200c47974c0454ae8ad272a09c533eb">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0-beta1_bf82744c496cbc27efb806ad7fb718f81fdcbc66.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-beta1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="471ce760dbf7b784fd74892b5113bca4e0d8def7">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0-beta1_e42ec0cffda65e3f8efe706a3a37fbc16d4e715f.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.0.2_7e68b21477eda8498fb6a4d0f8ee5cae4f06e97a.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="cf16220db9128d91a215aedc739584181d5ca6a4">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.0.2_dddff1f3a443b767d10e0e938254367ce99c92e0.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.0.2_6d9ad1423903e17193476877c8117c3b8e486731.jar" />
+    </item>
+    <item
+        jar="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-beta1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="97f82fd0c185bd2881a93646954f2429be4baa86">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0-beta1_a688a3de49d76127812d0c5689369e3b0c20dc54.jar" />
+    </item>
+    <item
+        jar="C:\Users\geniushkg\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="D:\android_udacity\Advanced_Android_Development\app\build\intermediates\pre-dexed\debug\glide-3.5.2_3077946df285961ed1e17c19d01913db48dc3344.jar" />
+    </item>
+
+</items>

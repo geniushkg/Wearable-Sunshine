@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\android_udacity\\Advanced_Android_Development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\widget_preview_today.png",
+        "source": "D:\\android_udacity\\Advanced_Android_Development\\app\\src\\main\\res\\drawable-nodpi\\widget_preview_today.png"
+    },
+    {
+        "merged": "D:\\android_udacity\\Advanced_Android_Development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\ic_muzei.png",
+        "source": "D:\\android_udacity\\Advanced_Android_Development\\app\\src\\main\\res\\drawable-nodpi\\ic_muzei.png"
+    },
+    {
+        "merged": "D:\\android_udacity\\Advanced_Android_Development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\widget_preview_detail.png",
+        "source": "D:\\android_udacity\\Advanced_Android_Development\\app\\src\\main\\res\\drawable-nodpi\\widget_preview_detail.png"
+    }
+]
