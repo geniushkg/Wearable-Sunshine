@@ -330,20 +330,20 @@ ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidM
 		ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:168:13-69
 	android:name
 		ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:165:13-66
-service#gcm.MyGcmListenerService
+service#com.example.android.sunshine.app.gcm.MyGcmListenerService
 ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:169:9-175:19
 	android:exported
 		ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:171:13-37
 	android:name
-		ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:170:13-52
+		ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:170:13-53
 intent-filter#com.google.android.c2dm.intent.RECEIVE
 ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:172:13-174:29
-service#gcm.MyInstanceIDListenerService
+service#com.example.android.sunshine.app.gcm.MyInstanceIDListenerService
 ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:176:9-182:19
 	android:exported
 		ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:178:13-37
 	android:name
-		ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:177:13-59
+		ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:177:13-60
 intent-filter#com.google.android.gms.iid.InstanceID
 ADDED from D:\android_udacity\Advanced_Android_Development\app\src\main\AndroidManifest.xml:179:13-181:29
 action#com.google.android.gms.iid.InstanceID

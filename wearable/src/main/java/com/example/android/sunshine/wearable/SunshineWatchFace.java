@@ -297,6 +297,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
 
         @Override
         public void onDraw(Canvas canvas, Rect bounds) {
+            Log.d("GOOGLE_API_CLIENT","onDraw trigger");
             // Draw background color
             if (isInAmbientMode()) {
                 canvas.drawColor(Color.BLACK);
@@ -339,6 +340,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
                     float xOffset = bounds.centerX() - ((highTextSize + lowTextSize + 20) / 2);
                     canvas.drawText(mHighTemp, xOffset, mYOffsetWeather, mTextTempHighPaint);
                     canvas.drawText(mLowTemp, xOffset + highTextSize + 20, mYOffsetWeather, mTextTempLowPaint);
+                    Log.d("WATCH_DATA","ambient temp data drawn");
                 } else {
                     mTextTempLowPaint.setColor(getResources().getColor(R.color.primary_light));
                     float xOffset = bounds.centerX() - (highTextSize / 2);
@@ -352,6 +354,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
                     Bitmap weatherIcon = Bitmap.createScaledBitmap(icon, (int) scaledWidth, (int) mTextTempHighPaint.getTextSize(), true);
                     float iconXOffset = bounds.centerX() - ((highTextSize / 2) + weatherIcon.getWidth() + 30);
                     canvas.drawBitmap(weatherIcon, iconXOffset, mYOffsetWeather - weatherIcon.getHeight(), null);
+                    Log.d("WATCH_DATA","interactive temp data drawn");
                 }
             }
         }
@@ -406,6 +409,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
         // Wearable Data Change Listener
         @Override
         public void onDataChanged(DataEventBuffer dataEventBuffer) {
+            Log.d("GOOGLE_API_CLIENT","on data change listener trigger");
             for (DataEvent dataEvent : dataEventBuffer) {
                 if (dataEvent.getType() == DataEvent.TYPE_CHANGED) {
                     DataItem dataItem = dataEvent.getDataItem();
