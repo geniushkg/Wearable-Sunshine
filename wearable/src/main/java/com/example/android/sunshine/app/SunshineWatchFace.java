@@ -357,6 +357,8 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
                     canvas.drawBitmap(weatherIcon, iconXOffset, mYOffsetWeather - weatherIcon.getHeight(), null);
                     Log.d("GOOGLE_API_CLIENT","interactive temp data drawn");
                 }
+            }else{
+                Log.d("GOOGLE_API_CLIENT","data null high:"+mHighTemp + "low : "+mLowTemp);
             }
         }
 
@@ -419,7 +421,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
                         mHighTemp = dataMap.getString(KEY_HIGH);
                         mLowTemp = dataMap.getString(KEY_LOW);
                         mWeatherId = dataMap.getInt(KEY_ID);
-                        Log.d("WATCH_DATA", "\nHigh: " + mHighTemp + "\nLow: " + mLowTemp + "\nID: " + mWeatherId);
+                        Log.d("GOOGLE_API_CLIENT", "\nHigh: " + mHighTemp + "\nLow: " + mLowTemp + "\nID: " + mWeatherId);
                         invalidate();
                     }
                 }
