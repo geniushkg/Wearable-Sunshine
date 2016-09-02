@@ -1,4 +1,4 @@
-package com.example.android.sunshine.wearable;
+package com.example.android.sunshine.app;
 
 /**
  * Created by geniushkg on 9/1/2016.

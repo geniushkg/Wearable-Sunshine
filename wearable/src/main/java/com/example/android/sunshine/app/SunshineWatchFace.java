@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.sunshine.wearable;
+package com.example.android.sunshine.app;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -36,7 +36,6 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
-import android.text.format.Time;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.WindowInsets;
@@ -301,8 +300,10 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
             // Draw background color
             if (isInAmbientMode()) {
                 canvas.drawColor(Color.BLACK);
+                Log.d("GOOGLE_API_CLIENT","ambient true");
             } else {
                 canvas.drawRect(0, 0, bounds.width(), bounds.height(), mBackgroundPaint);
+                Log.d("GOOGLE_API_CLIENT","ambient false");
             }
 
             // Set current time in calendar
@@ -340,7 +341,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
                     float xOffset = bounds.centerX() - ((highTextSize + lowTextSize + 20) / 2);
                     canvas.drawText(mHighTemp, xOffset, mYOffsetWeather, mTextTempHighPaint);
                     canvas.drawText(mLowTemp, xOffset + highTextSize + 20, mYOffsetWeather, mTextTempLowPaint);
-                    Log.d("WATCH_DATA","ambient temp data drawn");
+                    Log.d("GOOGLE_API_CLIENT","ambient temp data drawn");
                 } else {
                     mTextTempLowPaint.setColor(getResources().getColor(R.color.primary_light));
                     float xOffset = bounds.centerX() - (highTextSize / 2);
@@ -354,7 +355,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
                     Bitmap weatherIcon = Bitmap.createScaledBitmap(icon, (int) scaledWidth, (int) mTextTempHighPaint.getTextSize(), true);
                     float iconXOffset = bounds.centerX() - ((highTextSize / 2) + weatherIcon.getWidth() + 30);
                     canvas.drawBitmap(weatherIcon, iconXOffset, mYOffsetWeather - weatherIcon.getHeight(), null);
-                    Log.d("WATCH_DATA","interactive temp data drawn");
+                    Log.d("GOOGLE_API_CLIENT","interactive temp data drawn");
                 }
             }
         }
